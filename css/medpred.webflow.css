@@ -145,7 +145,6 @@
 
 .block-about-mp {
   width: 389px;
-  height: 388px;
   margin-top: -83px;
   padding: 30px 40px 40px;
   border-radius: 10px;
@@ -279,6 +278,9 @@
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+.div-block-6-mp div {
+  margin-right: 5px;
 }
 
 .div-block-6-mp._01-mp {
@@ -798,6 +800,16 @@
   background-size: auto;
 }
 
+.div-block-22-mp.left-mp._9-mp {
+  background-image: url('../images/04-photo-9.jpg');
+  background-size: 600px;
+}
+
+.div-block-22-mp.left-mp._10-mp {
+  background-image: url('../images/04-photo-9.jpg');
+  background-size: 600px;
+}
+
 .div-block-22-mp.left-mp._8-mp.sandoz-mp {
   border-radius: 0px;
   box-shadow: none;
@@ -920,7 +932,7 @@
 .sponsors-mp.right-mp {
   position: relative;
   z-index: 1;
-  height: 450px;
+  height: auto;
   margin-right: 0px;
   float: none;
   background-color: rgba(82, 145, 221, .2);
@@ -947,6 +959,10 @@
   justify-content: space-between;
   background-color: rgba(82, 145, 221, .2);
   background-image: none;
+}
+
+.sponsors-mp.left-mp.auto-mp {
+  height: auto!important;
 }
 
 .sponsors-mp.left-mp.astra-mp {
@@ -1000,7 +1016,7 @@
 }
 
 .section-5-mp {
-  height: 1084px;
+  height: 1445px;
   padding-top: 100px;
   background-color: #e4f5fa;
   background-image: url('../images/05-bg.png');
@@ -1539,6 +1555,18 @@
   box-shadow: 0 8px 24px 0 rgba(0, 30, 63, .2);
   opacity: 0;
 }
+/*растягивание двух блоков спонсоров*/
+.med-col-long {
+  justify-content: center;
+}
+.med-col-long a .sponsor-block-mp {
+  width: 600px;
+}
+
+/*убираю лишние скругления, без правки css*/
+.med-block-clear-border-raduis {
+  border-radius: 0px!important;
+}
 
 html.w-mod-js *[data-ix="sponsor-block"] {
   opacity: 0.4;
@@ -2021,6 +2049,16 @@ html.w-mod-js *[data-ix="new-interaction-8"] {
   }
   .div-block-22-mp._8-mp {
     background-image: url('../images/04-photo-8.jpg');
+    background-position: 50% 50%;
+    background-size: 140%;
+  }
+  .div-block-22-mp._10-mp {
+    background-image: url('../images/04-photo-10.jpg');
+    background-position: 50% 50%;
+    background-size: 140%;
+  }
+  .div-block-22-mp._11-mp {
+    background-image: url('../images/04-photo-11.jpg');
     background-position: 50% 50%;
     background-size: 140%;
   }
