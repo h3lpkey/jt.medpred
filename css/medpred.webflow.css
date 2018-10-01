@@ -1568,6 +1568,18 @@
   border-radius: 0px!important;
 }
 
+.med-takeda-photo{
+  background-image: url('../images/04-photo-10.jpg');
+  background-position: 50% 50%;
+  background-size: 140%;
+}
+
+.med-jnj-photo{
+  background-image: url('../images/04-photo-11.jpg')!important;
+  background-position: 50% 50%;
+  background-size: 100%!important;
+}
+
 html.w-mod-js *[data-ix="sponsor-block"] {
   opacity: 0.4;
   -webkit-transform: scale(0.92, 0.92);
@@ -2049,11 +2061,6 @@ html.w-mod-js *[data-ix="new-interaction-8"] {
   }
   .div-block-22-mp._8-mp {
     background-image: url('../images/04-photo-8.jpg');
-    background-position: 50% 50%;
-    background-size: 140%;
-  }
-  .div-block-22-mp._10-mp {
-    background-image: url('../images/04-photo-10.jpg');
     background-position: 50% 50%;
     background-size: 140%;
   }
