@@ -2352,14 +2352,16 @@ html.w-mod-js *[data-ix="new-interaction-8"] {
   }
   .div-block-reddys-mobile {
     width: 100%;
-    height: 166px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-size: 215%;
     margin-top: -40px;
     margin-right: 10px;
     margin-left: 10px;
-    background-position: 0px 50%;
   }
   .div-block-sanofi._13-mp {
-    background-size: contain;
+    background-position: 50% 50%;
+    background-size: 151%;
   }
   .div-block-sanofi, .div-block-22-mp {
     width: 100%;
@@ -2384,7 +2386,8 @@ html.w-mod-js *[data-ix="new-interaction-8"] {
   }
   .div-block-22-mp._4-mp {
     background-image: url('../images/04-photo-4_1.jpg');
-    background-size: contain;
+    background-position: 50% 50%;
+    background-size: 151%;
   }
   .div-block-22-mp._6-mp {
     background-image: url('../images/04-photo-6.jpg');
@@ -2394,12 +2397,21 @@ html.w-mod-js *[data-ix="new-interaction-8"] {
   .div-block-22-mp._8-mp {
     background-image: url('../images/04-photo-8.jpg');
     background-position: 50% 50%;
-    background-size: 140%;
+    background-size: 150%;
   }
   .div-block-22-mp._11-mp {
     background-image: url('../images/04-photo-11.jpg');
-    background-position: 50% 50%;
+    background-position: 50% 16%;
     background-size: 140%;
+  }
+  .div-block-22-mp._12-mp {
+    background-image: url('../images/sunology.jpg');
+    background-position: 50% 16%;
+    background-size: 210%;
+  }
+  .div-block-astellas._5-mp {
+    background-position: 50% 50%;
+    background-size: 221%;
   }
   .div-block-23-mp {
     padding: 0px 20px 20px;
@@ -2659,8 +2671,9 @@ html.w-mod-js *[data-ix="new-interaction-8"] {
     opacity: 1;
   }
   .tooltip-10-mp {
-    left: 0px;
-    top: 44%;
+    left: -460px;
+    top: 70%;
+    max-width: 370px;
     display: none;
     width: auto;
     margin-right: 10px;
@@ -2766,6 +2779,70 @@ html.w-mod-js *[data-ix="new-interaction-8"] {
   .link-tooltip-50 {
     color: #275ee0;
     text-decoration: underline;
+  }
+  .tooltip-block {
+    width: 300px;
+    left: 10px;
+  }
+  .tooltip-31-mp {
+    top: 868px;
+  }
+  .tooltip-32-mp {
+    top: 1264px;
+  }
+  .tooltip-33-mp {
+    top: 469px;
+  }
+  .tooltip-34-mp {
+    top: 544px;
+  }
+  .tooltip-35-mp {
+    top: 1052px;
+  }
+  .tooltip-36-mp {
+    top: 1289px;
+  }
+  .tooltip-37-mp {
+    top: 1402px;
+  }
+  .tooltip-38-mp {
+    top: 632px;
+  }
+  .tooltip-39-mp {
+    top: 737px;
+  }
+  .tooltip-16-mp {
+    top: 439px;
+  }
+  .tooltip-20-mp {
+    top: 1221px;
+  }
+  .tooltip-30-mp {
+    top: 1268px;
+  }
+  .tooltip-22-mp {
+    top: 394px;
+  }
+  .tooltip-23-mp {
+    top: 456px;
+  }
+  .tooltip-24-mp {
+    top: 697px;
+  }
+  .tooltip-25-mp {
+    top: 759px;
+  }
+  .tooltip-26-mp {
+    top: 1000px;
+  }
+  .tooltip-27-mp {
+    top: 567px;
+  }
+  .tooltip-28-mp {
+    top: 1000px;
+  }
+  .tooltip-29-mp {
+    top: 965px;
   }
 }
 
