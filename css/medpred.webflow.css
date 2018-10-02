@@ -795,14 +795,15 @@
   background-size: auto;
 }
 
-.div-block-22-mp.left-mp._8-mp {
+.div-block-22-mp._8-mp {
   background-image: url('../images/04-photo-8.jpg');
   background-size: auto;
 }
 
-.div-block-22-mp.left-mp._9-mp {
-  background-image: url('../images/04-photo-9.jpg');
-  background-size: 600px;
+.div-block-22-mp._9-mp {
+  background-image: url('../images/04-photo-9.jpg')!important;
+  background-position: 50% 50%;
+  background-size: 151%!important;
 }
 
 .div-block-22-mp.left-mp._10-mp {
@@ -810,7 +811,7 @@
   background-size: 600px;
 }
 
-.div-block-22-mp.left-mp._8-mp.sandoz-mp {
+.div-block-22-mp._8-mp.sandoz-mp {
   border-radius: 0px;
   box-shadow: none;
 }
@@ -829,6 +830,10 @@
 .div-block-22-mp._7-mp {
   background-image: url('../images/04-photo-7.jpg');
   background-size: auto;
+}
+.div-block-22-mp._13-mp {
+  background-image: url('../images/04-photo-13.jpg');
+  background-size: 154%;
 }
 
 .div-block-23-mp {
@@ -1095,6 +1100,8 @@
 .image-7-mp {
   margin-top: -5px;
   margin-left: -40px;
+    height: 153px;
+    width: 100px;
 }
 
 .old-year-mp {
@@ -1125,6 +1132,37 @@
   cursor: default;
 }
 
+.link-tooltip {
+  position: relative;
+  z-index: 2;
+  color: #275ee0;
+  text-decoration: underline;
+}
+.link-tooltip-19-mp {
+  position: relative;
+  z-index: 2;
+  color: #275ee0;
+  text-decoration: underline;
+}
+.link-tooltip-20-mp {
+  position: relative;
+  z-index: 2;
+  color: #275ee0;
+  text-decoration: underline;
+}
+.link-tooltip-22-mp {
+  position: relative;
+  z-index: 2;
+  color: #275ee0;
+  text-decoration: underline;
+}
+.link-tooltip-21-mp {
+  position: relative;
+  z-index: 2;
+  color: #275ee0;
+  text-decoration: underline;
+}
+
 .tooltip-mp {
   position: absolute;
   left: 509px;
@@ -1138,6 +1176,128 @@
   background-color: #fff;
   box-shadow: 0 9px 24px 0 rgba(0, 30, 63, .2);
   opacity: 0;
+}
+.tooltip-block {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  width: 450px;
+  height: auto;
+  padding: 20px 25px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 9px 24px 0 rgba(0, 30, 63, .2);
+  opacity: 0;
+}
+.tooltip-21-mp {
+  position: absolute;
+  left: 655px;
+  top: 420px;
+  z-index: 1;
+  display: block;
+  width: 450px;
+  height: auto;
+  padding: 20px 25px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 9px 24px 0 rgba(0, 30, 63, .2);
+  opacity: 0;
+}
+.tooltip-20-mp {
+  position: absolute;
+  left: 509px;
+  top: 263px;
+  z-index: 1;
+  display: block;
+  width: 450px;
+  height: auto;
+  padding: 20px 25px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 9px 24px 0 rgba(0, 30, 63, .2);
+  opacity: 0;
+}
+.tooltip-22-mp {
+  position: absolute;
+  left: 14px;
+  top: 146px;
+  z-index: 1;
+  display: block;
+  width: 450px;
+  height: auto;
+  padding: 20px 25px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 9px 24px 0 rgba(0, 30, 63, .2);
+  opacity: 0;
+}
+.tooltip-23-mp {
+  left: 431px;
+  top: 173px;
+}
+.tooltip-24-mp {
+  left: 431px;
+  top: 412px;
+}
+.tooltip-25-mp {
+  left: 431px;
+  top: 483px;
+}
+.tooltip-26-mp {
+  left: 652px;
+  top: 265px;
+}
+.tooltip-27-mp {
+  left: 52px;
+  top: 285px;
+}
+.tooltip-28-mp {
+  left: 255px;
+  top: 132px;
+}
+.tooltip-29-mp {
+  left: 355px;
+  top: 332px;
+}
+.tooltip-30-mp {
+  left: 655px;
+  top: 417px;
+}
+.tooltip-31-mp {
+  left: 355px;
+  top: 67px;
+}
+.tooltip-32-mp {
+  left: 355px;
+  top: 591px;
+}
+.tooltip-33-mp {
+  left: 55px;
+  top: 195px;
+}
+.tooltip-34-mp {
+  left: 55px;
+  top: 291px;
+}
+.tooltip-35-mp {
+  left: 55px;
+  top: 791px;
+}
+.tooltip-36-mp {
+  left: 355px;
+  top: 243px;
+}
+.tooltip-37-mp {
+  left: 355px;
+  top: 360px;
+}
+.tooltip-38-mp {
+  left: 355px;
+  top: 332px;
+}
+.tooltip-39-mp {
+  left: 50px;
+  top: 360px;
 }
 
 .section-6-mp {
@@ -1295,8 +1455,9 @@
 
 .tooltip-5-mp {
   position: absolute;
+  display: none;
   left: 51px;
-  top: 166px;
+  top: 215px;
   z-index: 2;
   width: 450px;
   padding: 20px 25px;
@@ -1306,6 +1467,23 @@
   opacity: 0;
 }
 
+.tooltip-20-mp {
+  position: absolute;
+  top: 221px;
+  left: 711px;
+  z-index: 2;
+  width: 450px;
+  padding: 20px 25px 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 9px 24px 0 rgba(0, 30, 63, .2);
+  opacity: 0;
+}
+
+.link-tooltip-20-mp {
+  color: #275ee0;
+  text-decoration: underline;
+}
 .link-tooltip-6-mp {
   color: #275ee0;
   text-decoration: underline;
@@ -1397,7 +1575,7 @@
 
 .tooltip-9-mp {
   position: absolute;
-  top: 255px;
+  top: 354px;
   z-index: 2;
   width: 450px;
   padding: 20px 25px;
@@ -1411,7 +1589,6 @@
   position: absolute;
   left: -420px;
   top: 273px;
-  z-index: 2;
   width: 450px;
   padding: 20px 25px;
   border-radius: 6px;
@@ -1460,8 +1637,8 @@
 
 .tooltip-14-mp {
   position: absolute;
-  left: -445px;
-  top: 563px;
+  left: 380px;
+  top: 353px;
   z-index: 2;
   width: 450px;
   padding: 20px 25px 10px;
@@ -1485,7 +1662,7 @@
 
 .tooltip-16-mp {
   position: absolute;
-  top: 210px;
+  top: 193px;
   z-index: 2;
   width: 450px;
   padding: 20px 25px 10px;
@@ -1568,18 +1745,30 @@
   border-radius: 0px!important;
 }
 
-.med-takeda-photo{
-  background-image: url('../images/04-photo-10.jpg');
+.med-takeda-photo {
+  background-image: url('../images/04-photo-10.jpg')!important;
   background-position: 50% 50%;
   background-size: 140%;
 }
 
-.med-jnj-photo{
+.med-jnj-photo {
   background-image: url('../images/04-photo-11.jpg')!important;
   background-position: 50% 50%;
   background-size: 100%!important;
 }
+.med-dr-photo {
+  background-image: url('../images/04-photo-12.jpg')!important;
+  background-position: 50% 50%;
+  background-size: 151%!important;
+}
 
+.med-medal-header {
+    height: 232px;
+    width: 153px;
+}
+.med-logo-mobile {
+  height: 80px;
+}
 html.w-mod-js *[data-ix="sponsor-block"] {
   opacity: 0.4;
   -webkit-transform: scale(0.92, 0.92);
